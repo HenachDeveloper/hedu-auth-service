@@ -1,0 +1,18 @@
+cat > .dockerignore <<'EOF'
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+vendor
+node_modules
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+bootstrap/cache/*
+tests
+Dockerfile
+.dockerignore
+*.md
+EOF
